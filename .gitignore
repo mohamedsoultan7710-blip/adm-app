@@ -1,0 +1,29 @@
+# Secrets — ne jamais committer de vrais fichiers d'environnement
+.env
+.env.*
+!*.env.example
+!.env.local.example
+
+# Flutter (une fois mobile/ initialisé — Phase 1, étape 8)
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/build/
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/android/.gradle/
+mobile/**/*.g.dart
+mobile/**/*.freezed.dart
+
+# Next.js (une fois dashboard/ initialisé — Phase 1, étape 9)
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+
+# Supabase CLI local
+supabase/.branches/
+supabase/.temp/
+
+# Système
+.DS_Store
+*.log
